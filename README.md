@@ -17,7 +17,9 @@ Some distortions included are :
 * Introduced in [this paper from Google Brain](https://arxiv.org/abs/1709.05424), NIMA uses retrained state-of-the-art deep object recognition networks such as Inceptionv2 and MobileNet for blind image quality estimation.
 * Rather than just predict the mean score for an image, the classification head is replaced so that the model predicts the  distribution of human opinion scores.
 * Earth mover's Distance (EMD) loss is used as the loss function, since both the output and targets are probability distributions.
+
 ![alt text](/images/emd.png)
+
 * here p and phat are the target and output distributions, with N(for TID2013 N=10) ordered classes. CDF is the cumulative distribution function,r=2 as in the paper.
 * TID2013 does not contain the distribution of scores, only their mean and std deviation. Hence max entropy probability distribution with given mean and std dev. is used as the ground truth.
 
