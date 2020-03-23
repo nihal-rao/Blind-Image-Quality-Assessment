@@ -11,7 +11,7 @@ Some distortions included are :
 * Chromatic Aberration
 * Contrast change
 
-![alt text](/images/comp.png) 
+![alt text](/images/comp2.png) 
 
 ## Neural Image Assessment (NIMA) 
 * Introduced in [this paper from Google Brain](https://arxiv.org/abs/1709.05424), NIMA uses retrained state-of-the-art deep object recognition networks such as Inceptionv2 and MobileNet for blind image quality estimation.
