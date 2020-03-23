@@ -36,3 +36,8 @@ Some distortions included are :
 ## Results 
 * EMD loss on test data  = 0.0456
 * SRCC on test data, plus or minus 0.03 within 95% confidence = 0.8513
+
+## Usage
+* Run `pynima.py` for training and subsequent testing.
+* A train-val-test split of 70-20-10 split is used. Details can be found in `load_data.py`.
+* `random_search.py` is used to find optimal learning rates.
